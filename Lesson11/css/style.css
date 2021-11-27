@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #555;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+.box5 {
+    position: sticky;
+    left: 600px;
+    top: 10px;
+    background-color: black;
+    color: white;
+}
+.box4{
+    position:fixed;
+    left: 300px;
+    top: 10px;
+}
+.box2{
+    position: relative;
+    top:20px;
+    left: 100px;
+}
+.box3{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: darkred;
+}
+.flag{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+border:2px solid black;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+h2{
+   text-align: center;
+}
+
+.Logo2 .Container2 .Circles2{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 28px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+.Logos2 .Container2{
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border: 48px solid white;
+    border-radius: 130px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    
+}
+.Logos2{
+    width: 400px;
+    height: 400px;
+    background: darkred;
+    margin:auto;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    border-radius: 90px;
+}

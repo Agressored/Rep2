@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+.transition_example{
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: 1s;
+}
+.transition_example:hover{
+    width: 500px;
+    transition: 1s;
+}
+.transform_example{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+}
+.transform_example:hover{
+    transform: skewX(30deg);
+}
+.perent{
+    width: 50%;
+}
+.background_img_exemple{
+    width:80%;
+    height: 200px;
+    background: url("../img/");
+    margin: auto;
+}
+.object_fit_example{
+    margin: 0;
+}
+.object_fit_example_row{
+    display: flex;
+}
+.object_fit_example_col{
+    flex: 0 1 33.333%;
+    padding: 0px 15px;
+}
+.object_fit_example_item{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 58% 0px;
+    overflow: hidden;
+    position: relative;
+}
+.object_fit_example_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
